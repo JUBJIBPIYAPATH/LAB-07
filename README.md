@@ -112,6 +112,7 @@ namespace RandomNumber
 ให้เขียนโปรแกรมโดยมีข้อกำหนดดังนี้
 
 1. สร้างตัวแปร Random โดยการมีสุ่มเลข 1 หลัก (0 – 9 )
+
 int randomNumber = random.Next(0, 9);
 
 2. สร้างตัวแปรชนิด integer สำหรับรับค่าจากผู้ใช้
