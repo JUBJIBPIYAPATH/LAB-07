@@ -112,9 +112,9 @@ namespace RandomNumber
 ให้เขียนโปรแกรมโดยมีข้อกำหนดดังนี้
 
 1. สร้างตัวแปร Random โดยการมีสุ่มเลข 1 หลัก (0 – 9 )
-```
+
 ![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/LAB7.PNG?raw=true)
-```
+
 
 1. สร้างตัวแปรชนิด integer สำหรับรับค่าจากผู้ใช้
 
