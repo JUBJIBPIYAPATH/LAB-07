@@ -117,6 +117,17 @@ int randomNumber = random.Next(0, 9);
 ```
 
 2. สร้างตัวแปรชนิด integer สำหรับรับค่าจากผู้ใช้
+```
+	    Console.WriteLine("piyapath 57030192");
+            Console.Write("fist :");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("to :" );
+            int b = Convert.ToInt32(Console.ReadLine());
+            Random random = new Random();
+            int randomNumber = random.Next(a,b);
+            Console.WriteLine("RandomNumber : " + randomNumber);
+```
+
 
 3. สร้างตัวแปร boolean โดยเก็บค่าที่ได้จากการเปรียบเทียบตัวเลขในข้อ 1 และ 2
 
