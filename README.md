@@ -112,21 +112,7 @@ namespace RandomNumber
 ให้เขียนโปรแกรมโดยมีข้อกำหนดดังนี้
 
 1. สร้างตัวแปร Random โดยการมีสุ่มเลข 1 หลัก (0 – 9 )
-```
-namespace LAB7
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("piyapath 57030192");
-            Random random = new Random();
-            int randomNumber = random.Next(0, 9);
-            Console.WriteLine("RandomNumber : "+randomNumber);
-        }
-    }
-}
-```
+int randomNumber = random.Next(0, 9);
 
 2. สร้างตัวแปรชนิด integer สำหรับรับค่าจากผู้ใช้
 
