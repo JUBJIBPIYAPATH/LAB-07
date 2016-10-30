@@ -149,7 +149,7 @@ int randomNumber = random.Next(0, 9);
 ```
 4.ให้พิมพ์ค่าตัวแปร boolean ในข้อ 3 ออกทางหน้าจอ
 
-![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/LAB7.3.PNG?raw=true)
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/LAB7.4.PNG?raw=true)
 
 
 
