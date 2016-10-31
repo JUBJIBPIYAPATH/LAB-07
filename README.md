@@ -244,6 +244,10 @@ namespace thruthTable
 6. Exclusive OR
 ```
 
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/LAB7.5.PNG?raw=true)
+
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/LAB7.6.PNG?raw=true)
+
 
 
   2.2.2.	ชนิดข้อมูลตัวเลขจำนวนเต็ม (Integer Types)
