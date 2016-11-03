@@ -374,6 +374,20 @@ public class intergerTest
 9.	y%8
 10.	100*x+y%2-a
 ```
+	    double  a=10, b = 20,x = 5,y = 2;
+            Console.WriteLine("piyaapth 570030192");
+            Console.WriteLine("Ans a+b    = " + (a+b));
+            Console.WriteLine("Ans x-b    = "+(x-b));
+            Console.WriteLine("Ans x*b    = "+(x*b));
+            Console.WriteLine("Ans y/a    = "+(y/a));
+            Console.WriteLine("Ans b%y    = "+(b%y));
+            Console.WriteLine("Ans y+10%x = "+(y+10 % x));
+            Console.WriteLine("Ans 9/2*a  = "+(9/2*a));
+            Console.WriteLine("Ans y%8    = "+(y%8));
+            Console.WriteLine("Ans 100*x+y%2-a = "+(100 * x + y % 2 - a));
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/LAB7.66.PNG?raw=true)
+
+
 ##2.2.3. ชนิดข้อมูลเลขทศนิยม (Floating Point and Decimal Types)
 ตัวเลขจำนวนทศนิยม มักจะใช้ในการคำนวณทางวิทยาศาสตร์ เนื่องจากค่าในวิทยาศาสตร์ต้องการความละเอียดสูง หรือมีค่าสูงมากกว่าที่เลขจำนวนเต็มจะเก็บได้
 
