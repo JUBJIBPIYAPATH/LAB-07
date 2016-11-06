@@ -573,3 +573,22 @@ static void Main(string[] args)
             return SpaceString;
 ```
 ![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/7.8.1.PNG?raw=true)
+
+2.y=cos(x)
+```
+static void Main(string[] args)
+        {                       
+                for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
+                {
+                
+                Console.WriteLine("piyapath 57030192  y = Cos x {0,10:F} = {1,-10:F6}" + spaces(Math.Cos(i)) + "*", i, Math.Cos(i));
+                }
+
+            }
+        private static string spaces(double val)
+        {
+            string SpaceString = new String(' ', ((int)(val * 10.0)) + 10);
+            return SpaceString;
+        }
+```
+![]()
