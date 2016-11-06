@@ -591,4 +591,24 @@ static void Main(string[] args)
             return SpaceString;
         }
 ```
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/7.8.2.PNG?raw=true)
+
+3.y = tan(x)
+```
+static void Main(string[] args)
+        {
+            for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
+            {
+                Console.WriteLine("piyapath 57030192 y = Tan(x) {0,10:F} = {1,-10:F6}" + spaces(Math.Tan(i)) +"*", i, Math.Tan(i));
+            }
+
+        }
+        private static string spaces(double val)
+        {
+            string SpaceString = new string(' ', (int)val+25);
+            return SpaceString;
+        }
+    }
+}
+```
 ![]()
