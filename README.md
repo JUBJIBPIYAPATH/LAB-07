@@ -554,4 +554,22 @@ The sine of       6.00 = -0.279415         *
 2.	y = cos(x)
 3.	y = tan(x)
 ```
-	
+1.y=x2
+```
+static void Main(string[] args)
+        {
+
+            for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
+            {
+                Console.WriteLine("piyapath 57030192");
+                Console.WriteLine("y=x2 {0,10:F} = {1,-10:F6}" + spaces((i * i)) + "*", i, (i * i));
+                
+            }
+
+        }
+        private static string spaces(double val)
+        {
+            string SpaceString = new String(' ', (int)val);
+            return SpaceString;
+```
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/7.8.1.PNG?raw=true)
