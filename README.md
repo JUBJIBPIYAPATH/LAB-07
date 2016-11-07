@@ -26,9 +26,86 @@
 ในภาษา C# มีชนิดข้อมูลต่างๆ ได้แก่ ```byte```, ```char```, ```bool```, ```sbyte```, ```short```, ```ushort```, ```int``` , ```uint```, ```float```, ```double```, ```decimal```, ```long```, ```ulong``` โดยแต่ละชนิด มีคุณสมบัติที่สำคัญได้แก่ ขนาด (เป็นไบต์) ค่าต่ำสุด ค่าสูงสุด ที่เก็บในตัวแปรชนิดนั้นๆ ได้ ซึ่งมีฟังก์ชันในภาษา C# ที่ช่วยให้เราทราบคุณสมบัติเหล่านั้น ได้แก่คำสั่ง ```sizeof()```,  ```MinValue()``` และ ```MaxValue()```
 การแสดงค่าคุณสมบัติต่างๆ ของตัวแปร สามารถทำได้โดยใช้ฟังก์ชั่นเหล่านั้น ดังตัวอย่าง
 
-![]()
-![]()
-![]()
+```
+	    Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : byte");
+            Console.WriteLine("Size :" + sizeof(byte));
+            Console.WriteLine("Minimum Value :" + byte.MinValue);
+            Console.WriteLine("Maximum Value :" + byte.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : char");
+            Console.WriteLine("Size :" + sizeof(char));
+            Console.WriteLine("Minimum Value :" + (int)char.MinValue);
+            Console.WriteLine("Maximum Value :" + (int)char.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            bool a = 4 > 5;
+            Console.WriteLine("Data type : bool");
+            Console.WriteLine("4 > 5 then True/False");
+            Console.WriteLine("{0}", a);
+            bool b = 10 < 20;
+            Console.WriteLine("10 < 20 then True/False");
+            Console.WriteLine("{0}", b);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : sbyte");
+            Console.WriteLine("Size :" + sizeof(sbyte));
+            Console.WriteLine("Minimum Value :" + sbyte.MinValue);
+            Console.WriteLine("Maximum Value :" + sbyte.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : short");
+            Console.WriteLine("Size :" + sizeof(short));
+            Console.WriteLine("Minimum Value :" + short.MinValue);
+            Console.WriteLine("Maximum Value :" + short.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : ushort");
+            Console.WriteLine("Size :" + sizeof(ushort));
+            Console.WriteLine("Minimum Value :" + ushort.MinValue);
+            Console.WriteLine("Maximum Value :" + ushort.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : uint");
+            Console.WriteLine("Size :" + sizeof(uint));
+            Console.WriteLine("Minimum Value :" + uint.MinValue);
+            Console.WriteLine("Maximum Value :" + uint.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : float");
+            Console.WriteLine("Size :" + sizeof(float));
+            Console.WriteLine("Minimum Value :" + float.MinValue);
+            Console.WriteLine("Maximum Value :" + float.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : double");
+            Console.WriteLine("Size :" + sizeof(double));
+            Console.WriteLine("Minimum Value :" + double.MinValue);
+            Console.WriteLine("Maximum Value :" + double.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : decimal");
+            Console.WriteLine("Size :" + sizeof(decimal));
+            Console.WriteLine("Minimum Value :" + decimal.MinValue);
+            Console.WriteLine("Maximum Value :" + decimal.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : long");
+            Console.WriteLine("Size :" + sizeof(long));
+            Console.WriteLine("Minimum Value :" + long.MinValue);
+            Console.WriteLine("Maximum Value :" + long.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("piyapath 57030192");
+            Console.WriteLine("Data type : ulong");
+            Console.WriteLine("Size :" + sizeof(ulong));
+            Console.WriteLine("Minimum Value :" + ulong.MinValue);
+            Console.WriteLine("Maximum Value :" + ulong.MaxValue);
+            Console.WriteLine("---------------------------------");
+```
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/NLAB7.PNG?raw=true)
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/NLAB7.1.PNG?raw=true)
+![](https://github.com/JUBJIBPIYAPATH/LAB-07/blob/master/NLAB7.2.PNG?raw=true)
 
 **ตัวอย่างที่ 1** โปรแกรมแสดงคุณสมบัติ ```size```, ```MinValue``` และ ```MaxValue``` ของชนิดข้อมูล
 
